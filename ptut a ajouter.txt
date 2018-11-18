@@ -1,0 +1,11 @@
+Chapitre 2 
+
+CLI : Command Line Interface
+
+Types de connection:
+- Console : mode hors ligne direct sur la machine
+- SSH : En ligne connecté au serveur
+- Telnet : SSH pas sécurisé (mdp en clair)
+- AUX : connexion via cable téléphonique
+
+Se brancher sur le port console du switch pour le configurer
