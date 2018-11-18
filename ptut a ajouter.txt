@@ -8,4 +8,7 @@ Types de connection:
 - Telnet : SSH pas sécurisé (mdp en clair)
 - AUX : connexion via cable téléphonique
 
-Se brancher sur le port console du switch pour le configurer
+Modes de commande :
+- Mode d'exécution simple (toto>)
+- Mode d'exécution privilégiée (root#)
+
