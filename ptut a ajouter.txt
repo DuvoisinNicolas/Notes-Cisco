@@ -1,0 +1,30 @@
+Chapitre 3 (suite)
+
+- Segmentation : Diviser les messages en plusieurs morceaux pour pas avoir à tout renvoyer si on pert
+- Multiplexage : Pouvoir envoyer plusieurs messages via le même cable en alternant les paquets
+
+Les adresses physiques sont dans la couche liaison de données
+IP dans la couche réseau
+
+La couche transport sert à segmenter , transférer et reconstituer les données entre les périphériques finaux
+
+L'adresse MAC est stockée sur la carte réseau
+
+Elle sert de liaison sur les réseaux locaux (via le protocole ARP)
+
+Encapsulation :
+Données -> Segment -> Paquet -> Trame -> Bits
+
+PDU : Unitées de données de protocole : c'est le nom de chaque trame ajoutée
+
+Les paquets contiennent : IP Source et IP Destination , ainsi que l'adresse MAC source/dest
+Lors du passage par un autre périphérique (routeur) l'adresse IP ne change pas , mais l'adresse mac oui
+
+Adresse IP est divisée en 2 parties :
+Partie réseau : C'est l'IP du réseau
+Partie hôte : C'est ce qui définit quel périphérique parle depuis ce réseau
+Le masque de sous réseau permet de définir la partie hôte
+
+
+TP 3.2.4.6
+WireShark et TP 3.4.1.1
